@@ -52,9 +52,9 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Junizar Fajri',
-    description: '',
-    imageURL: '',
+    title: 'Junizar Fajri',
+    description: 'Portfolio & CV',
+    imageURL: 'https://avatars.githubusercontent.com/u/13750681?v=4',
   },
   social: {
     linkedin: 'junfajr',
@@ -77,7 +77,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1ZpMNOiqZB9EDzlLCdd6GKSAehL9MAw1g/view', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/17sltgFSx8ZXeBha-FhBRFAMW4hN0Tp0n/view', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
