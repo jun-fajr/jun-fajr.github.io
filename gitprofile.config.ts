@@ -2,14 +2,14 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'jun-fajr', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 3, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['jun-fajr/gitprofile', 'jun-fajr/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,82 +33,206 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Yamaha Planning Production',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Aplikasi Dashboard untuk monitoring Perencanaan Produksi, menggunakan Fastify & React',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://i.ibb.co/414Dvtn/Screenshot-2024-02-28-203404.png',
+          link: '',
         },
         {
-          title: 'Project Name',
+          title: 'MED-MAP',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'MED-MAP is a consolidated platform helping the medical manufacturers and services providers to reach more customers in Southeast Asia, and get the local partners',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://www.med-map.org/',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Junizar Fajri',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    youtube: '', // example: 'pewdiepie'
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    linkedin: 'junfajr',
+    // twitter: 'arif_szn',
+    // mastodon: 'arifszn@mastodon.social',
+    // researchGate: '',
+    facebook: 'junfajr88',
+    // instagram: '',
+    youtube: 'junizarfajri', // example: 'pewdiepie'
+    // dribbble: '',
+    // behance: '',
+    medium: 'jun.fajr',
+    dev: 'junfajr',
+    // stackoverflow: '', // example: '1/jeff-atwood'
+    // skype: '',
+    telegram: 'junfajr',
+    website: 'https://jun-fajr.github.io',
+    phone: '085277560006',
+    email: 'jun-fajr@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1ZpMNOiqZB9EDzlLCdd6GKSAehL9MAw1g/view', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
     'Laravel',
+    'CodeIgniter',
+    'WordPress',
     'JavaScript',
+    'TypeScript',
     'React.js',
+    'Next.JS',
     'Node.js',
-    'Nest.js',
+    'Nest.JS',
+    'Fastify',
+    'Framework7',
     'MySQL',
     'PostgreSQL',
+    'MongoDB',
+    'Prisma',
     'Git',
     'Docker',
-    'PHPUnit',
+    'Python',
+    'Odoo',
+    'Golang',
+    'Ruby on Rails',
     'CSS',
     'Antd',
     'Tailwind',
+    'MaterialUI',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'PT. Azimuth Solusi Indonesia',
+      position: 'Fullstack Developer',
+      from: 'Jan 2023',
+      to: 'Dec 2023',
+      companyLink: 'https://azimuthsolusi.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'PT. Mandatech Mataram Mukti',
+      position: 'FrontEnd Developer',
+      from: 'Sept 2022',
+      to: 'Oct 2022',
+      companyLink: 'https://mandatech.co.id',
+    },
+    {
+      company: 'PT. Fungsitama Cipta Teknologi',
+      position: 'FullStack Developer',
+      from: 'May 2022',
+      to: 'Aug 2022',
+      companyLink: 'https://fungsitama.com',
+    },
+     {
+      company: 'PT. AMANAH KARYA INDONESIA',
+      position: 'FullStack Developer',
+      from: 'Mar 2022',
+      to: 'Apr 2022',
+      companyLink: 'https://office.amanahcorp.co.id/id',
+    },
+     {
+      company: 'PT. Mandatech Mataram Mukti',
+      position: 'FrontEnd Developer',
+      from: 'Feb 2021',
+      to: 'Feb 2022',
+      companyLink: 'https://mandatech.co.id',
+    },
+     {
+      company: 'PT. Karda',
+      position: 'FullStack Developer',
+      from: 'August 2020',
+      to: 'January 2021',
+      companyLink: '',
+    },
+     {
+      company: 'PT. Putri Adinda Pratama Wisata (Adinda Azzhra)',
+      position: 'Web Developer',
+      from: 'May 2020',
+      to: 'Jul 2020',
+      companyLink: 'https://adindaazzahra.id',
+    },
+    {
+      company: 'PT. International Global Network (IGN)',
+      position: 'FullStack Developer',
+      from: 'Jan 2020',
+      to: 'Apr 2020',
+      companyLink: 'https://internationalglobalnetwork.com',
+    },
+    {
+      company: 'Mitrafor',
+      position: 'Mobile Developer',
+      from: 'Nov 2019',
+      to: 'Dec 2020',
+      companyLink: '',
+    },
+    {
+      company: 'Geo Tech',
+      position: 'BackEnd Developer',
+      from: 'Oct 2019',
+      to: 'Nov 2019',
+      companyLink: '',
+    },
+    {
+      company: 'PT. Arkana Solusi Digital',
+      position: 'Odoo Developer',
+      from: 'Apr 2018',
+      to: 'Dec 2018',
+      companyLink: 'https://arkana.co.id',
+    },
+    {
+      company: 'PT. Zaya Management',
+      position: 'IT Staff & Web Developer',
+      from: 'Apr 2017',
+      to: 'Jun 2017',
+      companyLink: '',
+    },
+    {
+      company: 'Masjid Raudhatul Jannah, Hospital RSUDZA',
+      position: 'IT Staff & Web Developer',
+      from: '2015',
+      to: '2016',
+      companyLink: '',
+    },
+     {
+      company: 'Expo Comp Store',
+      position: 'IT Staff & Trainer',
+      from: '2013',
+      to: '2014',
+      companyLink: '',
+    },
+     {
+      company: 'Mahad Ar-Rabwah Al-islamiy',
+      position: 'High School Physics Teacher & IT Support',
+      from: '2013',
+      to: '2013',
+      companyLink: '',
+    },
+    {
+      company: 'Electrical Engineering of Syiah Kuala University',
+      position: 'Lecturer Assistant and Computer Laboratory',
+      from: '2011',
+      to: '2012',
+      companyLink: '',
+    },
+    {
+      company: 'PIKE Aceh (Pusat Informasi dan Kajian Ekonomi Aceh)',
+      position: 'IT Staff & Web Developer',
+      from: '2008',
+      to: '2010',
+      companyLink: '',
+    },
+     {
+      company: 'Syariah Faculty of State Islamic University Ar-Raniry',
+      position: 'Warnet Manager',
+      from: '2008',
+      to: '2009',
+      companyLink: '',
     },
   ],
   certifications: [
@@ -121,42 +245,37 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
+      institution: 'Universitas Syiah Kuala',
       degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      from: '2005',
+      to: '2010',
     },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+    
   ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
+  // publications: [
+  //   {
+  //     title: 'Publication Title',
+  //     conferenceName: '',
+  //     journalName: 'Journal Name',
+  //     authors: 'John Doe, Jane Smith',
+  //     link: 'https://example.com',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  //   },
+  //   {
+  //     title: 'Publication Title',
+  //     conferenceName: 'Conference Name',
+  //     journalName: '',
+  //     authors: 'John Doe, Jane Smith',
+  //     link: 'https://example.com',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  //   },
+  // ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: 'jun.fajr', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -164,7 +283,7 @@ const CONFIG = {
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
-    id: '',
+    id: '3367790',
     snippetVersion: 6,
   },
   themeConfig: {
