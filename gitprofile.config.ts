@@ -77,7 +77,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1lXDKCGrbCFkTYru8hR838A6Girc-R1bS/view', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1UPJKsjxJoEqbjBC8lOaAp0M0s5ZK59eB/view', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -86,8 +86,8 @@ const CONFIG = {
     'WordPress',
     'JavaScript',
     'TypeScript',
-     'Java',
-     'Java Spring Boot',
+    'Java',
+    'Java Spring Boot',
     'React.js',
     'Next.JS',
     'Node.js',
