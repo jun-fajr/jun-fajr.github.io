@@ -77,7 +77,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/17sltgFSx8ZXeBha-FhBRFAMW4hN0Tp0n/view', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1lXDKCGrbCFkTYru8hR838A6Girc-R1bS/view', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -90,6 +90,7 @@ const CONFIG = {
     'Next.JS',
     'Node.js',
     'Nest.JS',
+    'Node-RED',
     'Fastify',
     'Framework7',
     'MySQL',
@@ -106,46 +107,47 @@ const CONFIG = {
     'Antd',
     'Tailwind',
     'MaterialUI',
+    'MikroTik',
   ],
   experiences: [
     {
       company: 'PT. Azimuth Solusi Indonesia',
-      position: 'Fullstack Developer',
+      position: 'Software Engineer',
       from: 'Jan 2023',
-      to: 'Dec 2023',
+      to: 'Jan 2024',
       companyLink: 'https://azimuthsolusi.com',
     },
     {
       company: 'PT. Mandatech Mataram Mukti',
-      position: 'FrontEnd Developer',
+      position: 'Software Engineer',
       from: 'Sept 2022',
       to: 'Oct 2022',
       companyLink: 'https://mandatech.co.id',
     },
     {
       company: 'PT. Fungsitama Cipta Teknologi',
-      position: 'FullStack Developer',
+      position: 'Software Engineer',
       from: 'May 2022',
       to: 'Aug 2022',
       companyLink: 'https://fungsitama.com',
     },
      {
-      company: 'PT. AMANAH KARYA INDONESIA',
-      position: 'FullStack Developer',
+      company: ' PT. Amanah Karya Indonesia',
+      position: 'Software Engineer',
       from: 'Mar 2022',
       to: 'Apr 2022',
       companyLink: 'https://office.amanahcorp.co.id/id',
     },
      {
       company: 'PT. Mandatech Mataram Mukti',
-      position: 'FrontEnd Developer',
+      position: 'Software Engineer',
       from: 'Feb 2021',
       to: 'Feb 2022',
       companyLink: 'https://mandatech.co.id',
     },
      {
-      company: 'PT. Karda',
-      position: 'FullStack Developer',
+      company: 'Karda',
+      position: 'Software Engineer',
       from: 'August 2020',
       to: 'January 2021',
       companyLink: '',
@@ -153,87 +155,52 @@ const CONFIG = {
      {
       company: 'PT. Putri Adinda Pratama Wisata (Adinda Azzhra)',
       position: 'Web Developer',
-      from: 'May 2020',
+      from: 'Jun 2020',
       to: 'Jul 2020',
       companyLink: 'https://adindaazzahra.id',
     },
     {
       company: 'PT. International Global Network (IGN)',
-      position: 'FullStack Developer',
+      position: 'Software Engineer',
       from: 'Jan 2020',
-      to: 'Apr 2020',
+      to: 'Jun 2020',
       companyLink: 'https://internationalglobalnetwork.com',
     },
     {
       company: 'Mitrafor',
       position: 'Mobile Developer',
       from: 'Nov 2019',
-      to: 'Dec 2020',
+      to: 'Dec 2019',
       companyLink: '',
     },
     {
       company: 'Geo Tech',
-      position: 'BackEnd Developer',
-      from: 'Oct 2019',
+      position: 'Software Engineer',
+      from: 'Feb 2019',
       to: 'Nov 2019',
       companyLink: '',
     },
     {
       company: 'PT. Arkana Solusi Digital',
       position: 'Odoo Developer',
-      from: 'Apr 2018',
+      from: 'Mar 2018',
       to: 'Dec 2018',
       companyLink: 'https://arkana.co.id',
     },
     {
       company: 'PT. Zaya Management',
-      position: 'IT Staff & Web Developer',
-      from: 'Apr 2017',
-      to: 'Jun 2017',
+      position: 'IT Staff & Software Engineer',
+      from: 'Jan 2017',
+      to: 'Dec 2017',
       companyLink: '',
     },
-    {
-      company: 'Masjid Raudhatul Jannah, Hospital RSUDZA',
-      position: 'IT Staff & Web Developer',
-      from: '2015',
+     {
+      company: 'Expo Comp',
+      position: 'Software Engineer',
+      from: '2010',
       to: '2016',
       companyLink: '',
-    },
-     {
-      company: 'Expo Comp Store',
-      position: 'IT Staff & Trainer',
-      from: '2013',
-      to: '2014',
-      companyLink: '',
-    },
-     {
-      company: 'Mahad Ar-Rabwah Al-islamiy',
-      position: 'High School Physics Teacher & IT Support',
-      from: '2013',
-      to: '2013',
-      companyLink: '',
-    },
-    {
-      company: 'Electrical Engineering of Syiah Kuala University',
-      position: 'Lecturer Assistant and Computer Laboratory',
-      from: '2011',
-      to: '2012',
-      companyLink: '',
-    },
-    {
-      company: 'PIKE Aceh (Pusat Informasi dan Kajian Ekonomi Aceh)',
-      position: 'IT Staff & Web Developer',
-      from: '2008',
-      to: '2010',
-      companyLink: '',
-    },
-     {
-      company: 'Syariah Faculty of State Islamic University Ar-Raniry',
-      position: 'Warnet Manager',
-      from: '2008',
-      to: '2009',
-      companyLink: '',
-    },
+    }
   ],
   // certifications: [
   //   {
@@ -287,7 +254,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'luxury',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
