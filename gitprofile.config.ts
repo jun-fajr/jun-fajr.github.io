@@ -86,6 +86,8 @@ const CONFIG = {
     'WordPress',
     'JavaScript',
     'TypeScript',
+     'Java',
+     'Java Spring Boot',
     'React.js',
     'Next.JS',
     'Node.js',
