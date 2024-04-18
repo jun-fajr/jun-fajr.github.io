@@ -77,7 +77,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1UPJKsjxJoEqbjBC8lOaAp0M0s5ZK59eB/view', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1t_2BfzIqa9g9Gyfn8bg0cklL7XFo1HrI/view', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -185,7 +185,7 @@ const CONFIG = {
     {
       company: 'PT. Arkana Solusi Digital',
       position: 'Odoo Developer',
-      from: 'Mar 2018',
+      from: 'Apr 2018',
       to: 'Dec 2018',
       companyLink: 'https://arkana.co.id',
     },
