@@ -32,14 +32,14 @@ const CONFIG = {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        {
-          // title: 'Yamaha Planning Production',
-          // description:
-          //   'Aplikasi Dashboard untuk monitoring Perencanaan Produksi, menggunakan Fastify & React',
-          // imageUrl:
-          //   'https://i.ibb.co/414Dvtn/Screenshot-2024-02-28-203404.png',
-          // link: '',
-        },
+        // {
+        //   title: 'Yamaha Planning Production',
+        //   description:
+        //     'Aplikasi Dashboard untuk monitoring Perencanaan Produksi, menggunakan Fastify & React',
+        //   imageUrl:
+        //     'https://i.ibb.co/414Dvtn/Screenshot-2024-02-28-203404.png',
+        //   link: '',
+        // },
         // {
         //   title: 'MED-MAP',
         //   description:
