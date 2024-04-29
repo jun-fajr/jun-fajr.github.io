@@ -33,21 +33,21 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Yamaha Planning Production',
-          description:
-            'Aplikasi Dashboard untuk monitoring Perencanaan Produksi, menggunakan Fastify & React',
-          imageUrl:
-            'https://i.ibb.co/414Dvtn/Screenshot-2024-02-28-203404.png',
-          link: '',
+          // title: 'Yamaha Planning Production',
+          // description:
+          //   'Aplikasi Dashboard untuk monitoring Perencanaan Produksi, menggunakan Fastify & React',
+          // imageUrl:
+          //   'https://i.ibb.co/414Dvtn/Screenshot-2024-02-28-203404.png',
+          // link: '',
         },
-        {
-          title: 'MED-MAP',
-          description:
-            'MED-MAP is a consolidated platform helping the medical manufacturers and services providers to reach more customers in Southeast Asia, and get the local partners',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://www.med-map.org/',
-        },
+        // {
+        //   title: 'MED-MAP',
+        //   description:
+        //     'MED-MAP is a consolidated platform helping the medical manufacturers and services providers to reach more customers in Southeast Asia, and get the local partners',
+        //   imageUrl:
+        //     'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+        //   link: 'https://www.med-map.org/',
+        // },
       ],
     },
   },
@@ -77,7 +77,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1t_2BfzIqa9g9Gyfn8bg0cklL7XFo1HrI/view', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1npSr_P_iEBtDzCys9qil9IhxUxMLvosZ/view', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -113,6 +113,13 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'Sky Corporation',
+      position: 'Founder | Self-employed',
+      from: 'Jan 2010',
+      to: 'Now',
+      companyLink: 'https://skycorp-id.github.io',
+    },
+    {
       company: 'PT. Azimuth Solusi Indonesia',
       position: 'Software Engineer',
       from: 'Jan 2023',
@@ -134,7 +141,7 @@ const CONFIG = {
       companyLink: 'https://fungsitama.com',
     },
      {
-      company: ' PT. Amanah Karya Indonesia',
+      company: 'PT. Amanah Karya Indonesia',
       position: 'Software Engineer',
       from: 'Mar 2022',
       to: 'Apr 2022',
@@ -197,10 +204,31 @@ const CONFIG = {
       companyLink: '',
     },
      {
-      company: 'Expo Comp',
-      position: 'Software Engineer',
-      from: '2010',
+      company: 'Masjid Raudhatul Jannah RSUDZA',
+      position: 'IT Staff',
+      from: '2015',
       to: '2016',
+      companyLink: '',
+    },
+     {
+      company: 'Pesantren Ar-Rabwah Al-Islamy',
+      position: 'Physics Teacher',
+      from: '2012',
+      to: '2012',
+      companyLink: '',
+    },
+      {
+      company: 'PIKE Aceh',
+      position: 'IT Staff',
+      from: '2009',
+      to: '2009',
+      companyLink: '',
+    },
+     {
+      company: 'Fakultas Syariah dan Hukum - UIN Ar-RaniryA',
+      position: 'Manager Warnet (Internet Cafe Manager)',
+      from: '2008',
+      to: '2008',
       companyLink: '',
     }
   ],
