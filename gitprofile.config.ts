@@ -71,13 +71,13 @@ const CONFIG = {
     // stackoverflow: '', // example: '1/jeff-atwood'
     // skype: '',
     telegram: 'junfajr',
-    website: 'https://jun-fajr.github.io',
+    website: 'https://jun-fajr.netlify.app',
     phone: '085277560006',
     email: 'jun-fajr@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1npSr_P_iEBtDzCys9qil9IhxUxMLvosZ/view', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1otR6AwL-EVAUSY4KAcsypCpiuTLz1-2V/view', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -87,11 +87,11 @@ const CONFIG = {
     'JavaScript',
     'TypeScript',
     'Java',
-    'Java Spring Boot',
-    'React.js',
+    'Spring Boot',
+    'React',
     'Next.JS',
     'Node.js',
-    'Nest.JS',
+    'NestJS',
     'Node-RED',
     'Fastify',
     'Framework7',
@@ -107,9 +107,10 @@ const CONFIG = {
     'Ruby on Rails',
     'CSS',
     'Antd',
-    'Tailwind',
+    'Tailwind CSS',
     'MaterialUI',
     'MikroTik',
+    'Networking'
   ],
   experiences: [
     {
@@ -117,7 +118,7 @@ const CONFIG = {
       position: 'Founder | Self-employed',
       from: 'Jan 2010',
       to: 'Now',
-      companyLink: 'https://skycorp-id.github.io',
+      companyLink: 'https://skycorp-id.netlify.app',
     },
     {
       company: 'PT. Azimuth Solusi Indonesia',
