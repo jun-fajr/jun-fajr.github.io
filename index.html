@@ -989,6 +989,22 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+
+  <script type="text/javascript">
+    function disableRightClick() {
+      alert("Sorry, right click is not allowed !!");
+      return false;
+    } 
+  </script>
+
+  <script type="text/javascript" language="javascript">
+    $(function () {
+      $(this).bind("contextmenu", function (e) {
+        e.preventDefault();
+      });
+    }); 
+  </script>
+
 </body>
 
 </html>
